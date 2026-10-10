@@ -1,0 +1,17 @@
+{
+  "name": "aternos-afk-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=22 <23"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mineflayer": "^4.20.0",
+    "minecraft-protocol": "^1.47.0",
+    "minecraft-protocol-forge": "github:PrismarineJS/node-minecraft-protocol-forge#master"
+  }
+}
