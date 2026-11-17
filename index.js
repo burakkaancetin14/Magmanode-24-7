@@ -3,9 +3,9 @@ const mineflayer = require('mineflayer');
 const { autoVersionForge, forgeHandshake } = require('minecraft-protocol-forge');
 
 const CONFIG = {
-  host: process.env.SERVER_HOST || '',
+  host: process.env.SERVER_HOST || 'dynamic-9.magmanode.com:25789',
   port: parseInt(process.env.SERVER_PORT || '25565', 10),
-  username: process.env.BOT_NAME || 'AFK_Bot',
+  username: process.env.BOT_NAME || 'AFK',
   auth: process.env.AUTH || 'offline',
   email: process.env.BOT_EMAIL || '',
   password: process.env.BOT_PASSWORD || '',
